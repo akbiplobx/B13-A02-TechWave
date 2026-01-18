@@ -103,3 +103,44 @@ nav .btn:hover{
 .btn2:hover{
     color: #88ff11;
 }
+
+.about-container{
+    padding: 50px 0;
+   text-align: center;
+}
+.about-container h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+}
+.about-container p{
+    font-size: 16px;
+      color: white;
+     font-weight: 300;
+      line-height: 20px;
+      text-align: center;
+}
+.card-container{
+    padding: 50px 0;
+    display: flex;
+    gap: 15px;
+    justify-content: space-between; 
+   
+}
+.card{
+    /* width: 250px; */
+    padding: 20px;
+    /* background: #aa6464; */
+    text-align: center;
+    
+}
+.card h3{
+    font-size: 50px;
+     color: #00FF88;
+     font-weight: bold;
+}
+.card p{
+    
+     color: #ffffff;
+}
