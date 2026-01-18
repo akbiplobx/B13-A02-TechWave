@@ -5,13 +5,13 @@
     font-family: "Inter", sans-serif;
 }
 body{
-    background-color: #1a0b2e;;
+    background-color: #1a0b2e;
 }
 .container{
     width: 75%;
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 nav{
     display: flex;
@@ -38,15 +38,68 @@ nav .menu a{
     color: white;
     margin-right: 15px;
 }
-nav .btn{
+.btn{
     padding: 10px 20px;
     background: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
     border-radius: 25px;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 600;
+    color: white;
   
 }
 nav .btn:hover{
     background: linear-gradient(45deg, #e6d200, #ff0055, #7200c4);
+}
+ #hero{
+   
+   background: url(images/hero-bg.png);
 
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    padding: 55px 0;
+    align-items: center;
+}
+.circle-wrap{
+    position: relative;
+}
+.microphone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    
+}
+.hero-content img{
+    margin-bottom: 15px;
+
+}
+.hero-content h1{
+    margin-bottom: 15px;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+
+}
+.hero-content p{
+    margin-bottom: 25px;
+    color: white;
+
+}
+
+.btn1{  
+        margin-right: 15px;
+}
+.btn1:hover{  
+        background: linear-gradient(45deg, #e6d200, #ff0055, #7200c4);
+}
+.btn2{
+   
+    border: 1px solid #00FF88;
+    background: transparent;
+    color: #00FF88;
+}
+.btn2:hover{
+    color: #88ff11;
 }
