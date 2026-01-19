@@ -1,0 +1,38 @@
+/* tablet device */
+@media screen and (max-width: 992px) {
+    .container{
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+    
+}
+
+
+/* medium device */
+@media screen and (max-width: 792px) {
+     nav .btn{
+        display: none;
+    }
+}
+
+
+/* mobile device */
+@media screen and (max-width: 576px) {
+    nav .menu, .nav-btn{
+        display: none;
+    }
+    nav .hamburger{
+    display: block;
+}
+    .container{
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+ .circle-wrap{
+    width: 280px;
+ }
+
+    
+}
