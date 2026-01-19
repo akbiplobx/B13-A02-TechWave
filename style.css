@@ -172,7 +172,8 @@ hr{
 }
 
 #service-container {
-    padding: 50px 0;
+    padding: 70px 0;
+    margin-bottom: 20px;
 }
 
 #service-container h2,
@@ -241,6 +242,10 @@ hr{
 .service-card p {
     margin-bottom: 15px;
     color: white;
+}
+
+#service{
+    background-color: #230E3D;
 }
 
 .feature-section {
