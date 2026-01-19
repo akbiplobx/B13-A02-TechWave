@@ -25,18 +25,9 @@ nav {
 }
 
 nav .logo {
-    font-size: 30px;
-    font-weight: bold;
+    width: 200px;
 }
 
-nav span {
-    background: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
-    -webkit-background-clip: text;
-    /* color showing only inside the text*/
-    -webkit-text-fill-color: transparent;
-    /*color transparent*/
-    font-weight: bold;
-}
 
 nav .menu {
     display: flex;
@@ -270,7 +261,7 @@ nav .btn:hover {
     overflow: hidden;
     gap: 20px;
     margin-bottom: 50px;
-    box-shadow: 0px 4px 8px #00000038;
+    box-shadow: 0px 4px 8px #000;
 }
 
 .feature-card h4 {
@@ -291,7 +282,7 @@ nav .btn:hover {
 }
 
 .feature-card h6 {
-    color: rgb(20, 172, 0);
+    color: #00FF88;
     padding: 0 15px;
     margin-bottom: 15px;
 }
@@ -347,4 +338,40 @@ nav .btn:hover {
  ul li a:hover{
    background-color: #511681;
 
+}
+
+.footer-container{
+    background-image: url(images/footer-bg.png);
+    padding: 150px;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.footer-card-box{
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+  .footer-logo{
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.footer-card{
+display: flex;
+gap: 5px;
+align-items: center;
+color: white;
+font-weight: 200;
+}
+.footer-container h5{
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 16px;
 }
