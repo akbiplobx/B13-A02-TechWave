@@ -88,9 +88,28 @@
     width: 100%;
     
 }
-.feature-host{
-    padding: 30px;
+.feature-host {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    background: #250D44;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 15px;
 }
+.feature-host h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.feature-host ul{
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
 
 .footer-card-box{
    
