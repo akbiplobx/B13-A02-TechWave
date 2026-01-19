@@ -13,7 +13,7 @@ body {
     width: 75%;
     max-width: 1200px;
     margin: 0 auto;
-    /* border: 1px solid red; */
+   
 }
 
 nav {
@@ -26,9 +26,6 @@ nav {
 
 nav .logo {
     width: 200px;
-}
-.navbar{
-    margin: 10px 0;
 }
 
 
@@ -88,7 +85,6 @@ nav .hamburger{
  position: absolute;
     top: 0;
     right: 0;
-    /* transform: translate(-50%, -50%); */
 }
 
 
@@ -148,17 +144,16 @@ nav .hamburger{
 
 .card-container {
     padding: 50px 0;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 15px;
     justify-content: space-between;
 
 }
 
 .card {
-    /* width: 250px; */
     padding: 20px;
-    /* background: #aa6464; */
-    text-align: center;
+      text-align: center;
 
 }
 
@@ -173,11 +168,11 @@ nav .hamburger{
     color: #ffffff;
 }
 
-.service-container {
+#service-container {
     padding: 50px 0;
 }
 
-.service-container h2,
+#service-container h2,
 .feature-section h2 {
     font-size: 30px;
     color: white;
@@ -187,8 +182,6 @@ nav .hamburger{
 }
 
 .service-card {
-    /* width: 100%;
-    height: 100%; */
     background: #2a0f4d;
     border-radius: 25px;
     padding: 30px;
@@ -248,15 +241,8 @@ nav .hamburger{
 
 .feature-section {
     margin-top: 50px;
-    /* border: 1px solid red; */
 }
 
-/* .feature-section h2{
-    font-size: 30px;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-} */
 .feature-box {
     display: flex;
     justify-content: space-between;
@@ -349,7 +335,7 @@ nav .hamburger{
 
 }
 
-.footer-container{
+#footer-container{
     background-image: url(images/footer-bg.png);
     background-size: cover;
     background-position: center;
@@ -380,7 +366,7 @@ align-items: center;
 color: white;
 font-weight: 200;
 }
-.footer-container h5{
+#footer-container h5{
     color: #fff;
     margin-top: 20px;
     font-weight: 300;
