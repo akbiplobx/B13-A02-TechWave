@@ -15,6 +15,10 @@
      nav .btn{
         display: none;
     }
+    .card-container {
+    grid-template-columns: repeat(2, 1fr); 
+    padding: 10px;
+}
     .container{
         width: 90%;
         margin: 0 auto;       
@@ -47,8 +51,12 @@
     display: block;
 }
 #hero p{
-    padding: 30px;
     text-align: center;
+}
+.about-container h2,
+#service-container h2,
+.feature-section h2  {
+    font-size: 30px;
 }
     .container{
         width: 90%;
@@ -85,10 +93,6 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* grid-template-rows: repeat(1, 50px); */
-    /* gap: 50px; */
-    /* text-align: center;
-    justify-content: space-between; */
     gap: 10px
     
 }
